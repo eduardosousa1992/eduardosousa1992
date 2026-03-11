@@ -1,0 +1,39 @@
+name: Generate GitHub Contribution Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # roda todo dia à meia-noite
+  workflow_dispatch:      # permite rodar manualmente
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # força Node 24
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          persist-credentials: true  # importante para push
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "24"
+
+      - name: Generate GitHub Contribution Snake
+        uses: platane/snk@v1.0.0
+        with:
+          file: github-contribution-grid-snake.svg
+          color: "#38BDF8"
+
+      - name: Commit SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add github-contribution-grid-snake.svg
+          git commit -m "Update contribution snake" || echo "No changes to commit"
+          git push origin main
