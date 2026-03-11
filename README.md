@@ -16,17 +16,20 @@
 ---
 
 # 👋 Sobre mim
-QA Automation Engineer com mais de **5 anos de experiência em qualidade de software e automação de testes**. Especializado em:  
-- Automação Web  
-- Automação Mobile  
-- Automação de APIs  
-- Estruturação de frameworks  
-- CI/CD  
-- Engenharia de qualidade  
+QA Automation Engineer com mais de **5 anos de experiência em qualidade de software e automação de testes**.  
+Especializado em:
+
+- Automação Web
+- Automação Mobile
+- Automação de APIs
+- Estruturação de frameworks
+- CI/CD
+- Engenharia de qualidade
+
+🎓 **Escolaridade:** Master em Gestão de Negócios Digitais, BI e IA – ESPM  
 
 Experiência em projetos para:  
-🏦 Bradesco  
-🏦 Santander  
+🏦 Bradesco | 🏦 Santander
 
 ---
 
@@ -43,18 +46,21 @@ Experiência em projetos para:
 <img src="https://img.shields.io/badge/Node.js-JavaScript-green?style=for-the-badge&logo=node.js"/>
 <img src="https://img.shields.io/badge/Git-Version%20Control-orange?style=for-the-badge&logo=git"/>
 <img src="https://img.shields.io/badge/GitHub-Actions-CI/CD-blue?style=for-the-badge&logo=githubactions"/>
+<img src="https://img.shields.io/badge/Coverage-NA-brightgreen?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge"/>
 
 ---
 
-# 🧪 Laboratório de Automação de QA
-Projetos focados em **engenharia de automação e qualidade contínua**.  
+# 🧪 Laboratório de Automação
+Projetos focados em **engenharia de automação e qualidade contínua**:
 
 | Projeto | Descrição |
-|------|------|
+|---------|-----------|
 | Unified Quality Framework | Framework escalável de automação |
 | QA API Test Automation | Automação robusta para APIs |
 | AI Driven UI Platform | Automação de UI com IA |
 | Automação API de Produtos | Automação de APIs REST |
+| Trabalho FullStack Docker/PostgreSQL | Projeto educativo integrando backend, frontend e banco de dados |
 
 ---
 
@@ -75,20 +81,11 @@ Projetos focados em **engenharia de automação e qualidade contínua**.
 
 # 🚀 Projetos
 <p align="center">
-  <a href="https://github.com/eduardosousa1992/unified-quality-framework">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=eduardosousa1992&repo=unified-quality-framework&theme=tokyonight"/>
-  </a>
-  <a href="https://github.com/eduardosousa1992/qa-api-test-automation">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=eduardosousa1992&repo=qa-api-test-automation&theme=tokyonight"/>
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/eduardosousa1992/ai-driven-ui-platform">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=eduardosousa1992&repo=ai-driven-ui-platform&theme=tokyonight"/>
-  </a>
-  <a href="https://github.com/eduardosousa1992/projeto-de-automacao-api-de-produtos">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=eduardosousa1992&repo=projeto-de-automacao-api-de-produtos&theme=tokyonight"/>
-  </a>
+  [![Unified Quality Framework](https://github-readme-stats.vercel.app/api/pin/?username=eduardosousa1992&repo=unified-quality-framework&theme=tokyonight)](https://github.com/eduardosousa1992/unified-quality-framework)
+  [![QA API Test Automation](https://github-readme-stats.vercel.app/api/pin/?username=eduardosousa1992&repo=qa-api-test-automation&theme=tokyonight)](https://github.com/eduardosousa1992/qa-api-test-automation)
+  [![AI Driven UI Platform](https://github-readme-stats.vercel.app/api/pin/?username=eduardosousa1992&repo=ai-driven-ui-platform&theme=tokyonight)](https://github.com/eduardosousa1992/ai-driven-ui-platform)
+  [![Automação API de Produtos](https://github-readme-stats.vercel.app/api/pin/?username=eduardosousa1992&repo=projeto-de-automacao-api-de-produtos&theme=tokyonight)](https://github.com/eduardosousa1992/projeto-de-automacao-api-de-produtos)
+  [![Trabalho FullStack Docker/PostgreSQL](https://github-readme-stats.vercel.app/api/pin/?username=eduardosousa1992&repo=Trabalho_Educativo_Sobre_FullStack_Docker_BancoDeDados_POST&theme=tokyonight)](https://github.com/eduardosousa1992/Trabalho_Educativo_Sobre_FullStack_Docker_BancoDeDados_POST)
 </p>
 
 ---
@@ -100,12 +97,29 @@ Projetos focados em **engenharia de automação e qualidade contínua**.
 
 ---
 
-# 📫 Contato
-<p align="center">
-  <a href="https://www.linkedin.com/in/eduardolimasousa">
-    <img src="https://img.shields.io/badge/LinkedIn-Eduardo%20Sousa-blue?style=for-the-badge&logo=linkedin"/>
-  </a>
-  <a href="https://github.com/eduardosousa1992">
-    <img src="https://img.shields.io/badge/GitHub-eduardosousa1992-black?style=for-the-badge&logo=github"/>
-  </a>
-</p>
+# 🛠️ Status dos Projetos
+
+| Projeto | Build | Testes | Cobertura |
+|---------|-------|--------|-----------|
+| Unified Quality Framework | ✅ | ✅ | 🎯 |
+| QA API Test Automation | ⚠️ | ⚠️ | ⚠️ |
+| AI Driven UI Platform | ✅ | ✅ | 🎯 |
+| Automação API de Produtos | ⚠️ | ⚠️ | ⚠️ |
+| Trabalho FullStack Docker/PostgreSQL | ⚠️ | ⚠️ | ⚠️ |
+
+---
+
+# 💻 Exemplos de Código
+
+**QA API Test Automation (Postman/Newman)**
+
+```javascript
+const newman = require('newman');
+
+newman.run({
+    collection: require('./collections/Projeto de Automação - API de Produtos.postman_collection.json'),
+    environment: require('./environments/Producao.postman_environment.json')
+}, function(err){
+    if(err){ console.error(err); }
+    console.log('Testes finalizados!');
+});
