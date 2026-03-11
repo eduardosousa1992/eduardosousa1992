@@ -80,12 +80,26 @@ Projetos focados em **engenharia de automação e qualidade contínua**:
 ---
 
 # 🚀 Projetos
+
 <p align="center">
-  [![Unified Quality Framework](https://github-readme-stats.vercel.app/api/pin/?username=eduardosousa1992&repo=unified-quality-framework&theme=tokyonight)](https://github.com/eduardosousa1992/unified-quality-framework)
-  [![QA API Test Automation](https://github-readme-stats.vercel.app/api/pin/?username=eduardosousa1992&repo=qa-api-test-automation&theme=tokyonight)](https://github.com/eduardosousa1992/qa-api-test-automation)
-  [![AI Driven UI Platform](https://github-readme-stats.vercel.app/api/pin/?username=eduardosousa1992&repo=ai-driven-ui-platform&theme=tokyonight)](https://github.com/eduardosousa1992/ai-driven-ui-platform)
-  [![Automação API de Produtos](https://github-readme-stats.vercel.app/api/pin/?username=eduardosousa1992&repo=projeto-de-automacao-api-de-produtos&theme=tokyonight)](https://github.com/eduardosousa1992/projeto-de-automacao-api-de-produtos)
-  [![Trabalho FullStack Docker/PostgreSQL](https://github-readme-stats.vercel.app/api/pin/?username=eduardosousa1992&repo=Trabalho_Educativo_Sobre_FullStack_Docker_BancoDeDados_POST&theme=tokyonight)](https://github.com/eduardosousa1992/Trabalho_Educativo_Sobre_FullStack_Docker_BancoDeDados_POST)
+  <a href="https://github.com/eduardosousa1992/unified-quality-framework">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=eduardosousa1992&repo=unified-quality-framework&theme=tokyonight" alt="Unified Quality Framework" />
+  </a>
+  <a href="https://github.com/eduardosousa1992/qa-api-test-automation">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=eduardosousa1992&repo=qa-api-test-automation&theme=tokyonight" alt="QA API Test Automation" />
+  </a>
+  <a href="https://github.com/eduardosousa1992/ai-driven-ui-platform">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=eduardosousa1992&repo=ai-driven-ui-platform&theme=tokyonight" alt="AI Driven UI Platform" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/eduardosousa1992/projeto-de-automacao-api-de-produtos">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=eduardosousa1992&repo=projeto-de-automacao-api-de-produtos&theme=tokyonight" alt="Automação API de Produtos" />
+  </a>
+  <a href="https://github.com/eduardosousa1992/Trabalho_Educativo_Sobre_FullStack_Docker_BancoDeDados_POST">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=eduardosousa1992&repo=Trabalho_Educativo_Sobre_FullStack_Docker_BancoDeDados_POST&theme=tokyonight" alt="Trabalho FullStack Docker/PostgreSQL" />
+  </a>
 </p>
 
 ---
