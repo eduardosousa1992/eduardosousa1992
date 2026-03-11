@@ -1,25 +1,46 @@
-name: generate snake
+name: Generate GitHub Contribution Snake
 
+# Roda manualmente ou todo dia à meia-noite
 on:
   schedule:
-    - cron: "0 0 * * *"
-
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: eduardosousa1992
-          outputs: |
-            dist/github-contribution-grid-snake.svg
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
-      - uses: crazy-max/ghaction-github-pages@v3
+    steps:
+      # 1️⃣ Faz checkout do repositório
+      - name: Checkout repository
+        uses: actions/checkout@v3
         with:
-          target_branch: output
-          build_dir: dist
+          fetch-depth: 0
+          persist-credentials: true  # garante permissão para push
+
+      # 2️⃣ Configura Node.js 24
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "24"
+
+      # 3️⃣ Gera o SVG da cobrinha
+      - name: Generate GitHub Contribution Snake
+        uses: platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: github-contribution-grid-snake.svg
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 4️⃣ Commit e push do SVG
+      - name: Commit and push SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add github-contribution-grid-snake.svg
+          git commit -m "Update contribution snake" || echo "No changes to commit"
+          git push origin main
